@@ -1,0 +1,46 @@
+
+/*Navigator*/
+#navbarSupportedContent{margin-left: 30%;}
+.nav-item{margin: 1%; font-size: small;white-space: nowrap;}
+.navbar-toggler-icon{background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;}
+.navbar-toggler {border-color: rgb(255, 255, 255, 0.5) !important;}
+
+/*Carousel*/
+.carousel-item{background-color: black;}
+.carousel-img{background-color: black; filter: opacity(30%);}
+#carousel-text{ position: absolute;top: 30%; right: 5%; width: 50%;}
+
+/*Oradores*/
+main{width: 1000px; margin: 1% auto;text-align: center;}
+.orador{width: 30%;}
+.card{text-align: left; font-size: smaller; border-radius:0 !important;}
+.card-body-type{font-size:10px; border-radius: 5px; padding: 2%; font-weight: bold; text-align: center;}
+
+/*Form*/
+.section-form{width: 800px;margin: 1% auto;text-align: center;}
+textarea{padding: 1%;}
+
+.w-48{width: 48% !important; padding: 0.5%;}
+img{border-radius: 0 !important;}
+
+/*Utilities*/
+.text-pow{ position: relative; top: -0.5em; font-size: 80%;}
+.text-dotted{text-decoration:  underline dotted;}
+
+
+@media all and (max-width: 1000px) {
+
+    /*Carousel*/
+    .carousel-inner{height: auto;}
+    #carousel-text{ position: absolute;top: 1%; right: 5%; width: 90%; padding: 2%; font-size: smaller;}
+    /*Oradores*/
+    main{width: 100%;}
+    .orador{width: 95%; margin:5% auto;}
+
+    /*Form*/
+    .section-form{width: 100%; padding: 2%;}
+    .nav-link-footer{width: 50%; text-align: center;}
+    
+    
+}
+  
