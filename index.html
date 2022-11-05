@@ -20,7 +20,7 @@
   <!--Navigator-->
   <nav class="navbar navbar-expand-lg bg-dark ">
     <div class="container-fluid">
-      <div class="navbar-brand">
+      <div class="navbar-brand w-50">
         <img class="" src="./img/codoacodo.png" alt="Logo de Codo a Codo" width="100rem">
         <a class="nav-link text-white d-inline" href="#">Conf Bs.As</a>
       </div>
@@ -28,22 +28,22 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+            <a class="nav-link active text-white" aria-current="page" href="#carouselExampleSlidesOnly">La conferencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Los oradores</a>
+            <a class="nav-link text-secondary" href="#oradores">Los oradores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
+            <a class="nav-link text-secondary" href="#lugar-y-fecha">El lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
+            <a class="nav-link text-secondary" href="#convertite-en-orador">Conviértete en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-success" href="#">Comprar tickets</a>
+            <a class="nav-link text-success" href="tickets.html">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -74,7 +74,7 @@
   <main>
     <p class="mb-0 fs-6">CONOCE A LOS </p>
     <h2>ORADORES</h2>
-    <div class="container w-100 d-inline-flex justify-content-around flex-wrap">
+    <div id="oradores" class="container w-100 d-inline-flex justify-content-around flex-wrap">
       <!--Primer Orador-->
       <article class="card orador">
         <img src="./img/steve.jpg" width="100%" class="card-img" alt="...">
@@ -115,7 +115,7 @@
   </main>
   <!--BSAS Octubre-->
   <section>
-    <div class="card mb-3 w-100">
+    <div class="card mb-3 w-100" id="lugar-y-fecha">
       <div class="row g-0">
         <div class="col-md-6">
           <img src="img/honolulu.jpg" class="img-fluid" alt="...">
@@ -131,7 +131,7 @@
     </div>
   </section>
   <!--Form-->
-  <section class="section-form">
+  <section class="section-form" id="convertite-en-orador">
     <form class="w-100">
       <p class="mb-0 fs-6">CONVERTITE EN UN</p>
       <h2>ORADOR</h2>
